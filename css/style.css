@@ -1,0 +1,455 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-Thin';
+    src: url('/fonts/Inter-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-ExtraLight';
+    src: url('/fonts/Inter-ExtraLight.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #00040D;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.d-grid {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-justify {
+    text-align: left;
+}
+
+/* Padding Start */
+
+.pt-auto {
+    padding: auto;
+}
+
+.pt-1 {}
+
+.pt-2 {}
+
+.pt-3 {}
+
+.pt-4 {}
+
+.pt-5 {
+    padding-top: 80px;
+}
+
+.pb-1 {
+    padding-bottom: 10px;
+}
+
+.pb-2 {
+    padding-bottom: 20px;
+}
+
+.pb-3 {
+    padding-bottom: 30px;
+}
+
+.pb-4 {
+    padding-bottom: 40px;
+}
+
+.pb-5 {
+    padding-bottom: 50px;
+}
+
+/* Padding End */
+
+.size-w1 {
+    font-size: 25px;
+}
+
+@keyframes name-of-animation {
+    0% {
+        letter-spacing: 0.30em;
+    }
+    50% {
+        letter-spacing: 0.50em;
+    }
+    100% {
+        letter-spacing: 0.30em;
+    }
+  }
+
+.mark {
+    font-family: 'Inter-ExtraLight';
+    font-weight: 900;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+.mark2 {
+    font-family: 'Inter-ExtraLight';
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.img-spaccing {
+    box-shadow: 0px 0px 4px #00000046;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: 30px;
+    background-color: #030027;
+}
+
+.font-s {
+    
+    animation: name-of-animation 5s cubic-bezier(.39,.18,0,.85) infinite;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.46em;
+}
+
+/* Margins Start*/
+
+.mt-1 {
+    margin-top: 5px;
+}
+
+.mt-2 {
+    margin-top: 10px;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.mt-4 {
+    margin-top: 20px;
+}
+
+.mt-5 {
+    margin-top: 25px;
+}
+
+.mt-auto {
+    margin: 15px auto;
+}
+
+.mb-1 {
+    margin-bottom: 5px;
+}
+
+.ml-1 {
+    margin-left: 10px;
+}
+
+.mg-auto {
+    margin: auto 15px;
+}
+
+.mg2-auto {
+    margin: 50px 50px;
+}
+
+/* Margins End*/
+
+/* Interção Habilidades Start */
+
+.d-none1 {
+    opacity: 0;
+    cursor: default;
+}
+
+.d-none2 {
+    opacity: 0;
+    cursor: default;
+}
+
+.d-none3 {
+    opacity: 0;
+    cursor: default;
+}
+
+.zoom1 {
+    transition-duration: 1s;
+}
+
+/* Interção Habilidades End */
+
+
+#img {
+    border-radius: 999px;
+}
+
+h3 {
+
+    font-family: 'Inter-Thin';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.footer {
+    margin-top: 50px;
+    height: 70px;
+    background-color: #012340;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.SHIROEDITS {
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.sans-serif {
+
+    font-family: 'Inter-Thin';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tm-img {
+    margin-bottom: 50px;
+    height: 190px;
+}
+
+/* interação de linhas start*/
+
+#line {
+    border-bottom: 1px solid white;
+    width: 0px;
+}
+
+#line2 {
+    border-bottom: 1px solid white;
+    width: 0px;
+}
+
+#line3 {
+    border-bottom: 1px solid white;
+    width: 0px;
+}
+
+#line4 {
+    border-bottom: 1px solid white;
+    width: 0px;
+}
+
+#line5 {
+    border-bottom: 1px solid white;
+    width: 0px;
+}
+
+/* interação de linhas end */
+
+.conteiner {
+    height: 700px;
+}
+
+.sobremim {
+    height: 650px;
+    background: rgba(0, 21, 39, 0.41);
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+/* NAV BAR start */
+
+nav {
+    
+}
+
+.mobile-nav {
+    font-family: sans-serif;
+    background: #00000000;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    background: #00000000;
+    height: 10vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    transition: transform 0.3s ease-in;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 4px;
+    transition: 0.3s ease-in-out;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9 {
+        padding: 0;
+}
+
+@media (max-width: 798px) {
+    .img-spaccing {
+        padding: 5px;
+    }
+    .size-w1 {
+        font-size: 20px;
+    }
+    .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9 {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 598px) {
+    .SHIROEDITS {
+        font-size: 20px;
+    }
+    .img-spaccing {
+        padding: 0px;
+    }
+    .size-w1 {
+        font-size: 15px;
+    }
+    .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9 {
+        padding: 60px;
+    }
+}
+
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-list {
+        top: 0vh;
+        right: -928px;
+        width: 205vh;
+        height: 100vh;
+        background-color: #1b1b33c5;
+        flex-direction: column;
+        position: fixed;
+        z-index: 1;
+        align-items: center;
+        justify-content: space-around;
+        transition: all 0.3s ease-out;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        z-index: 2;
+        position: fixed;
+        right: 0;
+        display: grid;
+        width: 200vh;
+        justify-content: right;
+        margin: 10px;
+    }
+}
+
+.nav-list.active {
+    right: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/* NAV BAR end */
