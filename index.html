@@ -7,28 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Rafael Souza</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="fonts/">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
 </head>
 
-<body id="body">
+<body>
     <header>
-        <nav class="sr-3D5ABA">
+        <nav>
             <div class="mobile-menu mobile-nav">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-            <ul class="nav-list nav-menu">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobremim">Sobre mim</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-            </ul>
+            <div class="backg-nav">
+                <div class="nav-spaccing">
+                    <ul class="nav-list nav-menu">
+                        <li><a href="#inicio" onmouseenter="mouseEnter6()" onmouseleave="mouseLeave6()">
+                                Inicio
+                                <div id="linenav1" onmouseenter="mouseEnter6()" onmouseleave="mouseLeave6()"></div>
+                            </a>
+                        </li>
+                        <li><a href="#sobremim" onmouseenter="mouseEnter7()" onmouseleave="mouseLeave7()">
+                                Sobre mim
+                                <div id="linenav2" onmouseenter="mouseEnter7()" onmouseleave="mouseLeave7()"></div>
+                            </a>
+                        </li>
+                        <li><a href="#habilidades" onmouseenter="mouseEnter8()" onmouseleave="mouseLeave8()">
+                                Habilidades
+                                <div id="linenav3" onmouseenter="mouseEnter8()" onmouseleave="mouseLeave8()"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <div>
+    <div style="height: 100vh;">
         <div class="conteiner" id="inicio">
-            <div class="d-grid">
+            <div class="d-grid justify-header">
                 <img src="images/perfil.png" alt="perfil.png" class="tm-img" id="img" onmouseenter="mouseEnterIMG()"
                     onmouseleave="mouseLeaveIMG()">
                 <div class="text-left ml-1">
@@ -89,7 +104,7 @@
                     especiais,<br>
                     muitas das edições que eu fazia era de free fire, com isso fui<br>
                     adquirindo <span class="mark">experiência</span> na edição de videos,<br>
-                    os editores que eu usava era<br><br>
+                    os editores que eu uso é<br><br>
                     <span class="mark">After Effects, Vegas PRO, FL Studio, Photoshop.</span>
                 </h3>
             </div>
@@ -101,80 +116,139 @@
                         HABILIDADES
                     </h2>
                 </div>
-                <div>
-                    <div class="">
-                        <h2 class="mark p1 p2 p3 font-a" style="height: 100px;">
-                            ARRASTE O MOUSE NAS HABILIDADES
-                        </h2>
+                <div class="pb-3">
+                    <h3>Clique em uma Habilidade</h3>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div id="zoom1" onmouseenter="mousezoom1enter()" onmouseleave="mousezoom1leave()"
+                        onclick="mouseclick1()">
+                        <div>
+                            <img src="images/after-effects.png" alt="afteereffects.png" class="img-spaccing spami1 h1"
+                                style="cursor: pointer;">
+                            <div class="namef1">
+                                <div class="mark">After Effects</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="zoom2" onmouseenter="mousezoom2enter()" onmouseleave="mousezoom2leave()"
+                        onclick="mouseclick2()">
+                        <div>
+                            <img src="images/photoshop.png" alt="photoshop.png" class="img-spaccing h2"
+                                style="cursor: pointer;">
+                            <div class="namef2">
+                                <div class="mark">Photoshop</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="zoom3" onmouseenter="mousezoom3enter()" onmouseleave="mousezoom3leave()"
+                        onclick="mouseclick3()">
+                        <div>
+                            <img src="images/logoVEGAS-Pro-16.png" alt="vegaspro.png" class="img-spaccing h3"
+                                style="cursor: pointer;">
+                            <div class="namef3">
+                                <div class="mark">Vegas Pro</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex align-items-center">
-                    <div id="zoom1" onmouseenter="mouseEnterimg1()" onmouseleave="mouseLeaveimg1()">
-                        <img src="images/after-effects.png" alt="afteereffects.png" class="img-spaccing spami1">
+                    <div id="zoom4" onmouseenter="mousezoom4enter()" onmouseleave="mousezoom4leave()"
+                        onclick="mouseclick4()">
+                        <div>
+                            <img src="images/fl-studio.png" alt="flstudio.png" class="img-spaccing spami2 h4"
+                                style="cursor: pointer;">
+                            <div class="namef4">
+                                <div class="mark">FL Studio</div>
+                            </div>
+                        </div>
                     </div>
-                    <div id="zoom2" onmouseenter="mouseEnterimg2()" onmouseleave="mouseLeaveimg2()">
-                        <img src="images/photoshop.png" alt="photoshop.png" class="img-spaccing">
+                    <div id="zoom5" onmouseenter="mousezoom5enter()" onmouseleave="mousezoom5leave()"
+                        onclick="mouseclick5()">
+                        <div>
+                            <img src="images/html-5.png" alt="html5.png" class="img-spaccing h5"
+                                style="cursor: pointer;">
+                            <div class="namef5">
+                                <div class="mark">HTML5</div>
+                            </div>
+                        </div>
                     </div>
-                    <div id="zoom3" onmouseenter="mouseEnterimg3()" onmouseleave="mouseLeaveimg3()">
-                        <img src="images/logoVEGAS-Pro-16.png" alt="vegaspro.png" class="img-spaccing">
-                    </div>
-                </div>
-                <div>
-                    <div class="">
-                        <h2 class="mark p4 p5 p6 font-a" style="height: 100px;">
-                        </h2>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center">
-                    <div id="zoom4" onmouseenter="mouseEnterimg4()" onmouseleave="mouseLeaveimg4()">
-                        <img src="images/fl-studio.png" alt="flstudio.png" class="img-spaccing spami2">
-                    </div>
-                    <div id="zoom5" onmouseenter="mouseEnterimg5()" onmouseleave="mouseLeaveimg5()">
-                        <img src="images/html-5.png" alt="html5.png" class="img-spaccing">
-                    </div>
-                    <div id="zoom6" onmouseenter="mouseEnterimg6()" onmouseleave="mouseLeaveimg6()">
-                        <img src="images/css-3.png" alt="css3.png" class="img-spaccing">
-                    </div>
-                </div>
-                <div>
-                    <div class="">
-                        <h2 class="mark p7 p8 p9 font-a" style="height: 100px;">
-                        </h2>
+                    <div id="zoom6" onmouseenter="mousezoom6enter()" onmouseleave="mousezoom6leave()"
+                        onclick="mouseclick6()">
+                        <div>
+                            <img src="images/css-3.png" alt="css3.png" class="img-spaccing h6" style="cursor: pointer;">
+                            <div class="namef6">
+                                <div class="mark">CSS3</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="d-flex align-items-center">
-                    <div id="zoom7" onmouseenter="mouseEnterimg7()" onmouseleave="mouseLeaveimg7()">
-                        <img src="images/js.png" alt="javascript.png" class="img-spaccing spami3">
+                    <div id="zoom7" onmouseenter="mousezoom7enter()" onmouseleave="mousezoom7leave()"
+                        onclick="mouseclick7()">
+                        <div>
+                            <img src="images/js.png" alt="javascript.png" class="img-spaccing spami3 h7"
+                                style="cursor: pointer;">
+                            <div class="namef7">
+                                <div class="mark">Javascript</div>
+                            </div>
+                        </div>
                     </div>
-                    <div id="zoom8" onmouseenter="mouseEnterimg8()" onmouseleave="mouseLeaveimg8()">
-                        <img src="images/php.png" alt="php.png" class="img-spaccing">
+                    <div id="zoom8" onmouseenter="mousezoom8enter()" onmouseleave="mousezoom8leave()"
+                        onclick="mouseclick8()">
+                        <div>
+                            <img src="images/php.png" alt="php.png" class="img-spaccing h8" style="cursor: pointer;">
+                            <div class="namef8">
+                                <div class="mark">PHP</div>
+                            </div>
+                        </div>
                     </div>
-                    <div id="zoom9" onmouseenter="mouseEnterimg9()" onmouseleave="mouseLeaveimg9()">
-                        <img src="images/mysql.png" alt="mysql.png" class="img-spaccing">
+                    <div id="zoom9" onmouseenter="mousezoom9enter()" onmouseleave="mousezoom9leave()"
+                        onclick="mouseclick9()">
+                        <div>
+                            <img src="images/mysql.png" alt="mysql.png" class="img-spaccing h9"
+                                style="cursor: pointer;">
+                            <div class="namef9">
+                                <div class="mark">MySQL</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="d-flex2 justify-content-start text-center">
-            <div class="mark d-grid mg-auto" style="margin-right: auto;">
-                Contato: rafaelxsouza03@gmail.com
-                <div class="mark sr-3D5ABA">
-                    Feito por: Rafael Souza
-                </div>
-            </div>
-            <div class="d-flex2 mg-auto">
-                <a href="https://www.youtube.com/channel/UCllDrohfMgG5lRzUtEXYKrQ">
-                    <img src="images/perfil.png" alt="perfil.png" style="height: 50px; margin-top: 5px;" id="img2"
-                        onmouseenter="mouseEnterIMG2()" onmouseleave="mouseLeaveIMG2()">
-                </a>
-                <h3 class="SHIROEDITS"><a
-                        href="https://www.youtube.com/channel/UCllDrohfMgG5lRzUtEXYKrQ">SHIRO EDITS</a></h3>
-            </div>
-        </div>
+                <div class="bloco mg-calc">
+                    <div class="d-flex">
+                        <div class="closejustify">
 
+                            <span style="cursor: pointer;" onclick="mouseclickX()" id="close">
+                                X
+                            </span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center bloco2 mark p1 p2 p3 p4 p5 p6 p7 p8 p9"
+                        style="cursor: default;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="d-flex2 text-center">
+                <div class="d-flex d-justify">
+                    <div class="mark justify-size d-grid" style="margin-right: auto;">
+                        <a href="mailto:rafaelxsouza03@gmail.com">Contato: rafaelxsouza03@gmail.com</a>
+                        <div class="mark sr-3D5ABA">
+                            Feito por: Rafael Souza
+                        </div>
+                    </div>
+                    <a href="https://www.youtube.com/channel/UCllDrohfMgG5lRzUtEXYKrQ" target="_blank">
+                        <div class="d-flex2 mg-auto" onmouseenter="mouseEnterIMG2()" onmouseleave="mouseLeaveIMG2()">
+                            <img src="images/perfil.png" alt="perfil.png" id="img2">
+                            <h3 class="SHIROEDITS">SHIRO EDITS</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
+
 
     <script src="script/mobile-navbar.js"></script>
     <script src="script/script.js"></script>
