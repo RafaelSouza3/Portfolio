@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-Thin';
+    src: url('/fonts/Inter-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-ExtraLight';
+    src: url('/fonts/Inter-ExtraLight.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    background-color: #00040D;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 50px 0px;
+}
+#line {
+    transition: all 1.5s cubic-bezier(.3,0,.41,1);
+    border-bottom: solid white 1px;
+    width: 0px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-block {
+    display: flex;
+}
+
+.conteiner {
+    min-height: 100%;
+}
+
+.nav-backg {
+    padding: 40px 0px 40px 50px;
+    background-color: #012340be;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.nav-header {
+    margin: 0px calc((100% - 700px) / 2);
+}
+
+.nav-backgcolumn {
+    background-color: #012340;
+    width: 270px;
+    position: fixed;
+    height: calc(100% - 130px);
+}
+
+.col-system {
+    margin-left: 290px;
+}
+
+.backg-system {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+@media (min-width: 1200px) {
+}
+
+
+
